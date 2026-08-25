@@ -1,9 +1,14 @@
-    {
-      "build": {
-        "apk": {
-          "android": {
-            "buildType": "apk"
-          }
-        }
+{
+  "build": {
+    "production": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "apk": {
+      "android": {
+        "buildType": "apk"
       }
     }
+  }
+}
