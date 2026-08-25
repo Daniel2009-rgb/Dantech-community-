@@ -1,19 +1,13 @@
 {
-  "license": "0BSD",
-  "main": "index.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
+  "name": "dantech-community",
+  "main": "expo-router/entry",
+  "version": "1.0.0",
+  "scripts": { "start": "expo start" },
   "dependencies": {
-    "expo": "~54.0.37",
-    "expo-status-bar": "~3.0.9",
-    "react": "19.1.0",
-    "react-native": "0.81.5",
-    "react-native-paper": "4.9.2",
-    "@expo/vector-icons": "^15.0.3"
-  },
-  "private": true
+    "expo": "~51.0.28",
+    "expo-router": "~3.5.23",
+    "expo-image-picker": "~15.0.7",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "react-native": "0.74.5"
+  }
 }
