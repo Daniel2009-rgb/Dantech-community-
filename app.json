@@ -2,12 +2,19 @@
   "expo": {
     "name": "Dantech Community",
     "slug": "dantech-community",
-    "owner":"dantech1s-team",
+    "owner": "dantech1s-team",
     "version": "1.0.0",
-    "extra": { "eas": { "projectId": "01585b23-aa62-437a-99ac-b62bbb4b3cbd" } },
-    "android": { "package": "com.dantech.community" }
+    "scheme": "dantech",
+    "extra": {
+      "eas": {
+        "projectId": "01585b23-aa62-437a-99ac-b62bbb4b3cbd"
+      }
+    },
+    "android": {
+      "package": "com.dantech.community"
+    },
     "cli": {
-  "appVersionSource": "local"
+      "appVersionSource": "local"
     }
   }
 }
