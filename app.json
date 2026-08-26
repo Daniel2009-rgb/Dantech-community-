@@ -2,6 +2,7 @@
   "expo": {
     "name": "Dantech Community",
     "slug": "dantech-community",
+    "owner":"dantech1",
     "version": "1.0.0",
     "extra": { "eas": { "projectId": "01585b23-aa62-437a-99ac-b62bbb4b3cbd" } },
     "android": { "package": "com.dantech.community" }
