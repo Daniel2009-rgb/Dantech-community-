@@ -8,6 +8,24 @@
     "extra": {
       "eas": {
         "projectId": "01585b23-aa62-437a-99ac-b62bbb4b3cbd"
+        {
+  "expo": {
+    "name": "Dantech Community",
+    "slug": "dantech-community",
+    "version": "1.0.0",
+    "sdkVersion": "52.0.0",
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "1.9.24"
+          }
+        }
+      ]
+    ]
+  }
+      }
       }
     },
     "android": {
