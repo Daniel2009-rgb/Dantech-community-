@@ -1,5 +1,4 @@
 import { View, Text, Image, StyleSheet, ScrollView, TouchableOpacity, FlatList, ActivityIndicator } from 'react-native';
-import { Video } from 'expo-av';
 import { useRouter } from 'expo-router';
 import { useState, useEffect } from 'react';
 
